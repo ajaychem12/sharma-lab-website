@@ -27,7 +27,7 @@
       <h2>Meet the Team</h2>
 
       <div class="team-member principal-investigator">
-        <img src="images/ajay.jpg" alt="Dr. Ajay Kumar Sharma">
+        <img src="images/Ajay_Photo.jpg" alt="Dr. Ajay Kumar Sharma">
         <div class="member-info">
           <h3>Dr. Ajay Kumar Sharma, Ph.D.</h3>
           <p class="title">Principal Investigator & Research Associate (Faculty)</p>
@@ -80,7 +80,7 @@
         <h3>Mentor & Collaborator</h3>
         
         <div class="team-member mentor">
-          <img src="https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg" alt="Dr. Sridhar Nimmagadda">
+          <img src="images/nimmagadda-sridhar.jpg" alt="Dr. Sridhar Nimmagadda">
           <div class="member-info">
             <h3>Dr. Sridhar Nimmagadda, Ph.D.</h3>
             <p class="title">Professor of Radiology and Oncology</p>
@@ -114,51 +114,58 @@
       <div class="other-team-members">
         <h3>Lab Members</h3>
         
-        <div class="team-member">
-          <img src="https://images.pexels.com/photos/5327921/pexels-photo-5327921.jpeg" alt="Team Member 1">
+        <div class="team-member coming-soon">
+          <img src="https://images.pexels.com/photos/5327921/pexels-photo-5327921.jpeg" alt="Research Scientist Position">
           <div class="member-info">
             <h4>Research Scientist</h4>
-            <p>Specializing in radiochemistry and PET probe development.</p>
+            <p class="coming-soon-text">Coming Soon</p>
+            <p>We are looking for a talented research scientist specializing in radiochemistry and PET probe development to join our team.</p>
           </div>
         </div>
 
-        <div class="team-member">
-          <img src="https://images.pexels.com/photos/5327580/pexels-photo-5327580.jpeg" alt="Team Member 2">
+        <div class="team-member coming-soon">
+          <img src="https://images.pexels.com/photos/5327580/pexels-photo-5327580.jpeg" alt="Postdoctoral Fellow Position">
           <div class="member-info">
             <h4>Postdoctoral Fellow</h4>
-            <p>Working on peptide-based imaging agents for ovarian cancer.</p>
+            <p class="coming-soon-text">Coming Soon</p>
+            <p>We are seeking a postdoctoral fellow to work on peptide-based imaging agents for cancer research.</p>
           </div>
         </div>
 
-        <div class="team-member">
-          <img src="https://images.pexels.com/photos/5327656/pexels-photo-5327656.jpeg" alt="Team Member 3">
+        <div class="team-member coming-soon">
+          <img src="https://images.pexels.com/photos/5327656/pexels-photo-5327656.jpeg" alt="Graduate Student Position">
           <div class="member-info">
             <h4>Graduate Student</h4>
-            <p>Focused on small animal imaging and biodistribution analysis.</p>
+            <p class="coming-soon-text">Coming Soon</p>
+            <p>We welcome graduate students interested in small animal imaging and biodistribution analysis.</p>
           </div>
         </div>
 
         <div class="mentoring-section">
           <h3>Current Mentoring</h3>
+          <p class="joint-mentorship-note"><em>All mentoring activities are conducted in joint mentorship with Dr. Sridhar Nimmagadda.</em></p>
+          
           <div class="mentee-item">
             <h4>Naga Veeramallu</h4>
             <p class="mentee-role">Undergraduate Student (October 2023 - Present)</p>
-            <p>Working on radiopharmaceutical development and molecular imaging techniques.</p>
+            <p>Working on radiopharmaceutical development and molecular imaging techniques under joint mentorship with Dr. Nimmagadda.</p>
           </div>
         </div>
 
         <div class="past-mentoring-section">
           <h3>Past Mentoring</h3>
+          <p class="joint-mentorship-note"><em>All past mentoring activities were conducted in joint mentorship with Dr. Sridhar Nimmagadda.</em></p>
+          
           <div class="mentee-item">
             <h4>Sara Trauth</h4>
             <p class="mentee-role">Graduate Student (January 2024 - March 2024)</p>
-            <p>Two-month lab rotation in radiochemistry and PET imaging.</p>
+            <p>Two-month lab rotation in radiochemistry and PET imaging under joint mentorship with Dr. Nimmagadda.</p>
           </div>
           
           <div class="mentee-item">
             <h4>Jiancheng Mo</h4>
             <p class="mentee-role">Graduate Student (September 2022 - November 2022)</p>
-            <p>Two-month lab rotation focusing on peptide synthesis and characterization.</p>
+            <p>Two-month lab rotation focusing on peptide synthesis and characterization under joint mentorship with Dr. Nimmagadda.</p>
           </div>
         </div>
       </div>
@@ -209,6 +216,20 @@
       color: #d97706;
     }
 
+    .team-member.coming-soon {
+      background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
+      border: 2px dashed #9ca3af;
+      opacity: 0.8;
+    }
+
+    .coming-soon-text {
+      font-weight: 700;
+      color: #6b7280;
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+      font-style: italic;
+    }
+
     .mentoring-section,
     .past-mentoring-section {
       margin-top: 2rem;
@@ -220,6 +241,16 @@
 
     .past-mentoring-section {
       border-left-color: #6b7280;
+    }
+
+    .joint-mentorship-note {
+      background: #e0f2fe;
+      padding: 1rem;
+      border-radius: 6px;
+      border-left: 3px solid #0284c7;
+      margin-bottom: 1.5rem;
+      font-size: 0.95rem;
+      color: #0c4a6e;
     }
 
     .mentee-item {
